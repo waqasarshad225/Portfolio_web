@@ -1,0 +1,31 @@
+.blog-main{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-main .card-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins Light;
+    width: 80%;
+    justify-content: center;
+}
+.card{
+    /* border: 1px solid gray; */
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.blog-auther{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(141, 141, 141, 0.956);
+}
+.card h1{
+    text-transform: capitalize;
+}

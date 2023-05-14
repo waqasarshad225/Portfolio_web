@@ -1,0 +1,39 @@
+
+.header__left{
+  align-content: center;
+  border-radius: 50px;
+  margin-top: 1%;
+  width: 87%;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 67%;
+  padding: 0px;
+  font-family: 'Poppins SemiBold';
+}
+
+li {
+  margin-right: 30px;
+}
+
+a {
+  color: var(--dark-orange);
+  text-transform: calc(1.5);
+  font-size: 17px;
+  /* scrollbar-highlight-color: rgb(37, 37, 247); */
+  font-weight: 600;
+  transition: 0.3 s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(172, 46, 0);
+}
+
+.active {
+  font-weight: bold;
+  color: rgb(28, 12, 7);
+}

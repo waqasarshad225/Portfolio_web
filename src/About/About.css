@@ -1,0 +1,48 @@
+.about-main{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background: url(bg-contact.jpg);
+  height: fit-content;
+}
+
+.about-content{
+  width: 100%;
+  height: 100vh;
+ 
+
+}
+
+
+.about-text img{
+  width: 580px;
+    height: 755px;
+    border-radius: 5%;
+    position: absolute;
+    top: 56px;
+    left: 57px;
+    border-style: groove;
+    border-color: lightslategray;
+}
+
+.about-para p{
+  text-align: right;
+  width: 40%;
+  margin-left: 51%;
+  color: lightgoldenrodyellow;
+  margin-top: 4%;
+}
+
+.h1-tag h1{
+  width: 140%;
+  height: 7%;
+  color: rgb(250, 101, 32);;
+}
+
+.about-content p1{
+  width: 10%;
+  color: azure;
+  text-decoration-line: underline;
+  margin-left: 40%;
+}

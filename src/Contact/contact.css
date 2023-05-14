@@ -1,0 +1,58 @@
+.contact-main{
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-family: 'Poppins Light';
+    border: 2px solid rgb(0, 0, 0);
+    padding: 25px;
+    background: url(bg-contact.jpg);
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    background-size: 100%;
+    height: 100vh;
+}
+
+.contact-main h1{
+    color: rgb(250, 101, 32);
+}
+
+.contact-f form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-f input{
+    margin: 5px;
+    width: 424px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(62, 45, 45);
+    padding: 8px;
+    color: rgb(16, 15, 15);
+}
+
+.contact-f textarea{
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(62, 45, 45);
+    color: rgb(16, 15, 15);
+    width: 424px;
+}
+.contact-f button{
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid rgb(224, 119, 63);
+    color: rgb(255, 255, 255);
+    width: 424px;
+    background-color: var(--dark-orange);
+    font-weight: 600;
+    padding: 8px;
+}
+
+.contact-main p{
+    color: lightgoldenrodyellow;
+}
